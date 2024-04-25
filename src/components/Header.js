@@ -4,7 +4,7 @@ import Button from './Button';
 import { Link } from 'react-router-dom';
 function Header() {
   return (
-	 <header className=' bg-slate-500 w-full h-1/5 p-11 flex justify-between items-center '>
+	 <header className='absolute w-full h-1/5 p-11 flex justify-between items-center '>
 		<div>
 			<Link  className='flex items-center' to='/'>
 			<h3 className=' text-2xl text-white'>CREATE</h3>
