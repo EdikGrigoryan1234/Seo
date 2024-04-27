@@ -3,14 +3,17 @@ import React from 'react';
 function Button(props) {
   const buttonStyle = {
     backgroundColor: props.back,
-    width: 'auto',
-    height: 'auto',
+    width: props.width, 
+    height: props.height,
+	 margin:'20px',
 	 color:props.color,
 	 padding:'20px',
+	 border:props.bor,
+	borderRadius:'10px'
 	};
 
   return (
-    <button className="  rounded-3xl" style={buttonStyle}>{props.text}</button>
+    <button style={buttonStyle}>{props.text}</button>
   );
 }
 

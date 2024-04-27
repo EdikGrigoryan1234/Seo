@@ -22,9 +22,14 @@ function Footer() {
 					<p>Phone-(405) 555-0128</p>
 					<p>email-hello@createx.com</p>
 			</div>
-			<div></div>
-			<div></div>
 		</div>
+		<div className=' flex flex-col justify-center items-center'>
+				
+					<h3 className=' text-white w-48'>SIGN UP TO OUR NEWSLETTER</h3>
+					<input type='text' className='footerInp'/>
+					<p className=' text-white w-48'>*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.</p>
+			
+			</div>
 	 </div>
   )
 }
