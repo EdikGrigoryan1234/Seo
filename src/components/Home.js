@@ -11,6 +11,8 @@ import { Link } from "react-router-dom";
 import Section from "./Section";
 import DropDown from "./DropDown";
 import OurServices from "./OurServices";
+import StudioCards from "./StudioCards";
+import PricingCards from "./PricingCards";
 function Home() {
 	const [isOpen,setIsOpen]=useState(false)
 	function opening() {
@@ -101,6 +103,11 @@ function Home() {
             <Button text="Discover more" back="#7772F1" color="white"></Button>
           </Link>
 		</section>
+    <StudioCards/>
+    <PricingCards/>
+    <section>
+      asd
+    </section>
     </>
   );
 }
