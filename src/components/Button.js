@@ -7,6 +7,9 @@ function Button(props) {
     height: props.height,
 	 margin:'20px',
 	 color:props.color,
+   display:'flex',
+   justyfyContent:'center',
+   alignItems:'center',
 	 padding:'20px',
 	 border:props.bor,
 	borderRadius:'10px'

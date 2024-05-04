@@ -13,6 +13,7 @@ import DropDown from "./DropDown";
 import OurServices from "./OurServices";
 import StudioCards from "./StudioCards";
 import PricingCards from "./PricingCards";
+import ClientSay from "./ClientSay";
 function Home() {
 	const [isOpen,setIsOpen]=useState(false)
 	function opening() {
@@ -98,13 +99,13 @@ function Home() {
 			<DropDown content='Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac facilisis.' text='Orci commodo, viverra orci mollis ut euismod?'/>
 			<DropDown content='Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac facilisis.' text='Sagittis vitae facilisi rutrum amet mauris quisque vel convallis?'/>
 			<DropDown content='Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac facilisis.' text='In id dolor quis nunc, urna hendrerit pharetra?'/>
-
 			<Link to="about">
             <Button text="Discover more" back="#7772F1" color="white"></Button>
           </Link>
 		</section>
     <StudioCards/>
     <PricingCards/>
+    <ClientSay/>
     </>
   );
 }
