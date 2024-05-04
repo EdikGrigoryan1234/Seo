@@ -105,9 +105,6 @@ function Home() {
 		</section>
     <StudioCards/>
     <PricingCards/>
-    <section>
-      asd
-    </section>
     </>
   );
 }

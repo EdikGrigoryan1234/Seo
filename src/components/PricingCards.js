@@ -3,7 +3,7 @@ import React from 'react'
 function PricingCards() {
   return (
     <div>
-      <body class="bg-[#333434] flex justify-center items-center min-h-screen px-4">
+      <body class="bg-[#525353] flex justify-center items-center min-h-screen px-4">
     <input class="peer/option1 sr-only" id="option-1" type="radio" name="panel" />
     <input class="peer/option2 sr-only" id="option-2" type="radio" name="panel" checked />
     <input class="peer/option3 sr-only" id="option-3" type="radio" name="panel" />
