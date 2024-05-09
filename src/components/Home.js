@@ -32,6 +32,7 @@ function Home() {
           </h1>
           <Link to="careers">
             <Button
+            padding='20px'
               text="Talk to a human"
               back="#7772F1"
               color="white"
