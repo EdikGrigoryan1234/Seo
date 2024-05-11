@@ -17,7 +17,7 @@ import ClientSay from "./ClientSay";
 function Home() {
 	const [isOpen,setIsOpen]=useState(false)
 	function opening() {
-		if (this.innerHtml == '+') {	
+		if(this.innerHtml == '+') {	
 			setIsOpen(false)
 		}else{
 			setIsOpen(true)

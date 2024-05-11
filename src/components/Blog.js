@@ -9,7 +9,10 @@ function Blog() {
 	const [data,setData] = useState([])
 	const [text,setText] = useState('')
 	const[timerId,setTimerId] = useState()
+	const[categories,setCategories] = ([])
 	let arr = data
+
+	let arr2=[]
 	useEffect(()=>{
 			setTimerId(
 				setTimeout(()=>{
@@ -26,6 +29,9 @@ function Blog() {
 			},(1000))
 			)
 		},[text])
+		useEffect(()=>{
+		console.log(categories);
+		},[categories])
 		return (
 	<>
 	 <section className=' flex gap-12  justify-between p-60 '>
@@ -51,15 +57,27 @@ function Blog() {
 				<div class="bg-gradient">
 <input onChange={(val)=>setText(val.target.value)} class="input-transparent" type="text" placeholder="Search"/>
   </div>
-					
+  <div className=' p-10 gap-10'>
+
+				{
+					tags.map((e)=>{
+						return(
+							<button onClick={()=>{
+								arr2.push(e) 
+						}} className='categoriesBtn'>{e}</button>
+						)
+					},
+			)
+				}
+				</div>
 				</div>
 			</div>
 		</div>
 	 </section>
 	<Section/>
 	<div className=' w-full h-1'></div>
-	</>
-  )
+	</>  
+)
 }
 
 export default Blog

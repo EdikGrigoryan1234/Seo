@@ -29,7 +29,7 @@ box-shadow: -2px 22px 64px 0px rgba(0,0,0,0.75)
     background-position:center;
     position: relative;
     z-index: 2;
-	 margin: 150px;
+	 margin: 50px;
 	}
 #chunchurik{
     padding: 150px;
@@ -48,7 +48,7 @@ box-shadow: -2px 22px 64px 0px rgba(0,0,0,0.75)
 	}
 #card3{
 	width: 300px;
-	margin: 150px;
+	margin: 50px;
 }
 .card{
 	padding: 50px;
