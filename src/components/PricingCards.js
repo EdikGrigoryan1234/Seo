@@ -130,7 +130,7 @@ function PricingCards() {
         <article id="price-1" class="group">
             <hgroup class="gradient">
                 <p>$9<span>/mo</span></p>
-                <h2>Freelancer</h2>
+           
             </hgroup>
 
             <main>
@@ -157,7 +157,7 @@ function PricingCards() {
         <article id="price-2" class="group">
             <hgroup class="gradient">
                 <p>$99<span>/mo</span></p>
-                <h2>Business</h2>
+              
             </hgroup>
 
             <main>
@@ -185,12 +185,12 @@ function PricingCards() {
         <article id="price-3" class="group">
             <hgroup class="gradient">
                 <p>$499<span>/mo</span></p>
-                <h2>Enterprise</h2>
+    
             </hgroup>
             <main>
                 <ul>
                     <li>20GB of space</li>
-                    <li>Unlimited traffic</li>
+                    <li>Unlimited </li>
                     <li>Forum access</li>
                     <li>Free Support</li>
                 </ul>

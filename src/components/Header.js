@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <header className='fixed w-full h-1/5 p-11 flex justify-between items-center bg-[rgba(31,33,46,0.33)]'>
+    <header className=' rounded-br-lg pl-56  w-full pt-0 z-50 h-48 absolute flex justify-between items-center bg-[rgba(31,33,46,0.52)]'>
       <div>
         <Link className='flex items-center' to='/'>
           <h3 className='text-2xl text-white'>CREATE</h3>
@@ -41,28 +41,28 @@ function Header() {
               </li>
             )}
           </div>
-          <li>
+          {/* <li>
             <Link to='/studio' className='text-white text-lg font-light cursor-pointer'>
               Case Studies
             </Link>
-          </li>
-          <li>
+          </li>  */}
+          {/* /* <li>
             <Link to='/about' className='text-white text-lg font-light cursor-pointer'>
               About Us
             </Link>
-          </li>
-          <li>
+			</li> */}
+          <li> 
             <Link to='/blog' className='text-white text-lg font-light cursor-pointer'>
               Blog
             </Link>
           </li>
           <li>
-            <Link to='/contact' className='text-white text-lg font-light cursor-pointer'>
+            <Link to='/end' className='text-white text-lg font-light cursor-pointer'>
               Contacts
             </Link>
           </li>
         </ul>
-        <Link to='/careers'>
+        <Link to='/end'>
           <Button text="Talk to a human" back="#7772F1" color="white"></Button>
         </Link>
       </nav>

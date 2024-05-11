@@ -4,13 +4,13 @@ import Button from './Button'
 import img2 from './images/img2.png'
 function OurServices() {
   return (
-	 <div className='w-full'>
+	 <div className='w-full p-24'>
 		  <section>
-        <h1 className=" text-5xl">Our services</h1>
+        <h1 className=" text-6xl">Our services</h1>
 		  <div className=" flex items-center justify-center gap-14">
 
         <div className="">
-          <h2 className=" m-12 text-4xl">Complete Worflow For Any SEO Professional</h2>
+          <h2 className="text-black m-12 text-4xl">Complete Worflow For Any SEO Professional</h2>
           <ul>
             <li>✔ Aenean enim tellus morbi nisl vulputate dictumst.</li>
             <li>✔ Nibh sapien volutpat lacus augue.</li>
@@ -19,15 +19,15 @@ function OurServices() {
             <li>✔ Ultrices pellentesque dictum enim egestas ac diam.</li>
             <li>✔ Sit semper enim senectus integer ut turpis et.</li>
           </ul>
-          <div className=" m-12">
-            <Link to="service" className=" m-11">
+          <div className=" m-12 flex items-center justify-center">
+            <Link to="/end" className=" m-11">
               <Button
                 text="Try SEO toolkit"
                 back="#7772F1"
                 color="white"
               ></Button>
             </Link>
-            <Link to="about">
+            <Link to="/services">
               <Button
                 text="More about us"
                 back="#fff"
@@ -37,7 +37,7 @@ function OurServices() {
             </Link>
           </div>
         </div>
-        <img className=" object-cover" src={img2} />
+        <img className=" w-3/6 h-4/6 object-cover" src={img2} />
 			</div>
       </section>
 	 </div>

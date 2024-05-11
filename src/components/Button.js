@@ -1,7 +1,8 @@
 import React from 'react';
 
 function Button(props) {
-  const buttonStyle = {
+  
+	const buttonStyle = {
     backgroundColor: props.back,
     width: props.width, 
     height: props.height,
@@ -14,10 +15,9 @@ function Button(props) {
 	 border:props.bor,
 	borderRadius:'10px'
 	};
-
-  return (
-    <button style={buttonStyle}>{props.text}</button>
-  );
+	return (
+		<button style={buttonStyle}>{props.text}</button>
+	);
 }
 
 export default Button;

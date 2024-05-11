@@ -5,11 +5,15 @@ import './service.css'
 import img1 from './images/planshet.jpg'
 import Button from './Button'
 import ServiceCards from './ServiceCards';
+import Steps from './images/Steps.jpg'
 import icon1 from './images/icon1.jpg'
 import icon2 from './images/icon2.jpg'
 import icon3 from './images/icon3.jpg'
 import icon4 from './images/icon4.jpg'
 import icon5 from './images/icon5.jpg'
+import Section from './Section';
+import PricingCards from './PricingCards';
+import OurServices from './OurServices';
 function Service() {
   return (
 	 <>
@@ -97,6 +101,10 @@ function Service() {
 					</div>
 				</div>
 		</section>
+		<Section/>
+		
+		<PricingCards/>
+		<OurServices/>
 	 </>
   )
 }

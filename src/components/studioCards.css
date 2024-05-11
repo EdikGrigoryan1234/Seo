@@ -1,14 +1,12 @@
 .card{
-    width: 600px;
+    width: 700px;
     margin: 20px;
     padding: 150px;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
     flex-direction: column;
-
     -webkit-box-shadow: -2px 22px 64px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: -2px 22px 64px 0px rgba(0,0,0,0.75);
 box-shadow: -2px 22px 64px 0px rgba(0,0,0,0.75)
@@ -23,6 +21,7 @@ box-shadow: -2px 22px 64px 0px rgba(0,0,0,0.75)
     font-weight: 500;
 }
 #card1{
+	width: 300px;
     color: #fff;
     background-image: url(images/cardBack.jpg);
     background-repeat: no-repeat;
@@ -30,7 +29,8 @@ box-shadow: -2px 22px 64px 0px rgba(0,0,0,0.75)
     background-position:center;
     position: relative;
     z-index: 2;
-}
+	 margin: 150px;
+	}
 #chunchurik{
     padding: 150px;
     position: absolute;
@@ -43,4 +43,18 @@ box-shadow: -2px 22px 64px 0px rgba(0,0,0,0.75)
 }
 #card2{
     gap: 30px;
+	 width: 300px;
+	 margin: 50px;
+	}
+#card3{
+	width: 300px;
+	margin: 150px;
+}
+.card{
+	padding: 50px;
+}
+img{
+
+	width: auto;
+	height: auto;
 }

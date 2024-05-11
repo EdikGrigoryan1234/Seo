@@ -1,5 +1,5 @@
 import React from 'react'
-import './Global.css';
+
 import { Link } from 'react-router-dom';
 import Button from './Button';
 import tellIcon from './images/iPhone.jpg'
@@ -32,7 +32,7 @@ function Services() {
 			</div>
         <div className=' flex items-center justify-center gap-10 p-10'>
 
-		  <Link to="/contact">
+		  <Link to="/service">
             <Button
 				width= '180px'
 				text="Start now"
@@ -49,7 +49,7 @@ function Services() {
 				</div>
         </div>
       </section>
-	<section>
+	<section className=' gap-44'>
 		<div className=' p-10'>
 		<ServiceCards
 		img={img1}

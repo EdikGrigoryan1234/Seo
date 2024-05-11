@@ -11,6 +11,7 @@ import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Post from './components/Post';
 import Layout from './components/Layout';
+import End from './components/End';
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
 			<Route path='blog' element={<Blog/>}/>
 			<Route path='post' element={<Post/>}/>
 			<Route path='contact' element={<Contact/>}/>
+			<Route path='end' element={<End/>}/>
 			</Route>
 		</Routes>
     </div>

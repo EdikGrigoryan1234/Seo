@@ -7,7 +7,7 @@ function Layout() {
   return (
 	 <>
 		<Header/>
-		<main>
+		<main className=' w-full'>
 			<Outlet/>
 		</main> 
 		<Footer/>

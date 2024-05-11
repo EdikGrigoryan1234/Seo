@@ -26,11 +26,11 @@ function Home() {
   return (
     <>
       <section className="section1">
-        <div>
+        <div className=" flex justify-center items-center">
           <h1 className=" m-28 z-20 text-white  text-6xl  text-center">
             Best SEO & Marketing Solutions for You
           </h1>
-          <Link to="careers">
+          <Link to="/end">
             <Button
             padding='20px'
               text="Talk to a human"
@@ -76,7 +76,7 @@ function Home() {
       </section>
       <section className=" flex items-center justify-center  p-32">
         <div className=" flex flex-col  justify-center items-center gap-11">
-          <h2 className=" text-center text-5xl">Createx Agency </h2>
+          <h2 className=" text-center text-5xl text-black">Createx Agency </h2>
           <p className=" w-2/3 text-center">
             Lacus ac mollis vitae viverra. Tincidunt est, feugiat montes,
             viverra ullamcorper mi dui, nulla pharetra. Sapien urna nullam elit
@@ -90,7 +90,7 @@ function Home() {
             <Button text="More about us" back="#7772F1" color="white"></Button>
           </Link>
         </div>
-        <img className=" w-4/6" src={img1} />
+        <img className=" w-4/6 h-4/6" src={img1} />
       </section>
 		<OurServices/>
 		<Section></Section>

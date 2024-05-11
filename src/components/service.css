@@ -1,5 +1,8 @@
-input{
+.inp{
     background-color: #232442;
     border: 1px solid #fff;
      color: #fff;
+}
+.section1{
+	width: 100%;
 }
