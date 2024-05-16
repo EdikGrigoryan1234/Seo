@@ -3,16 +3,16 @@ import './newscard.css'
 function NewsCard(props) {
   return (
     <div>
-        <div class='card'>
-  <div class='img-container'>
+        <div className='card'>
+  <div className='img-container'>
    
   </div>
-  <div class='tags'>
+  <div className='tags'>
     <ul>
       {
-        props.tags.map((e)=>{
+        props.tags.map((e,i)=>{
             return(
-                <li>{e}</li>
+                <li key={i}>{e}</li>
             )
         })
       }
