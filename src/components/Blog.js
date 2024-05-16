@@ -9,7 +9,7 @@ function Blog() {
 	const [data,setData] = useState([])
 	const [text,setText] = useState('')
 	const[timerId,setTimerId] = useState()
-	const[categories,setCategories] = ([])
+	const[categories,setCategories] = useState()
 	let arr = data
 
 	let arr2=[]
@@ -30,7 +30,20 @@ function Blog() {
 			)
 		},[text])
 		useEffect(()=>{
-		console.log(categories);
+					this.innerHTML = ''
+					clearTimeout(timerId)
+					fetch("https://dummyjson.com/posts")
+					.then((res) => res.json())
+					.then((res) =>
+						setData(
+						res.posts.filter((e) =>
+						e.tags.map((y) => {
+						y==categories
+						})
+						)
+					)
+				);
+		
 		},[categories])
 		return (
 	<>
@@ -63,7 +76,7 @@ function Blog() {
 					tags.map((e)=>{
 						return(
 							<button onClick={()=>{
-								arr2.push(e) 
+							setCategories(e)
 						}} className='categoriesBtn'>{e}</button>
 						)
 					},

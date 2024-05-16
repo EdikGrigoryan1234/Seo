@@ -26,7 +26,7 @@ function Home() {
   return (
     <>
       <section className="section1">
-        <div className=" flex justify-center items-center">
+        <div className=" flex flex-col justify-center items-center">
           <h1 className=" m-28 z-20 text-white  text-6xl  text-center">
             Best SEO & Marketing Solutions for You
           </h1>
