@@ -35,7 +35,7 @@ function StudioCards() {
       <div className=' flex w-full justify-center items-center gap-16'>
         <h2 className=' text-black text-4xl font-light'>Explore more case studies</h2>
        <div className=' flex justify-center items-center'>
-       <Link to="careers">
+       <Link to="/service">
             <Button
                 width='150px'
                 height='50px'

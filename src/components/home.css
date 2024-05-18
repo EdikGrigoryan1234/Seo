@@ -15,17 +15,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.section1__container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
 	background-image: url(images/background.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+}
+.section1__container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .section2{
 	width: 100%;

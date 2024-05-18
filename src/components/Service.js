@@ -12,11 +12,15 @@ import icon3 from './images/icon3.jpg'
 import icon4 from './images/icon4.jpg'
 import icon5 from './images/icon5.jpg'
 import Section from './Section';
+import "./home.css";
+import "./Global.css";
 import PricingCards from './PricingCards';
 import OurServices from './OurServices';
 function Service() {
   return (
 	 <>
+	 <div className='service__container'>
+
 		  <section className="section1">
         <div className=' p-32'>
 			<div className=' flex items-center justify-center flex-col p-10'> 
@@ -42,6 +46,9 @@ function Service() {
 				</div>
         </div>
       </section>
+				</div>
+				<div className='service__container'>
+
 	 	<section className=' flex p-24 justify-center items-center'>
 			<img src={img1} className=' w-96 h-96'/>
 			<div className=' flex flex-col justify-center items-center'>
@@ -52,6 +59,9 @@ function Service() {
 					dictum mattis ultrices laoreet sapien. Feugiat lacus, suscipit eu sociis et quis hendrerit. Cras at ac magna ultricies orci.</p>
 			</div>
 		</section>
+				</div>
+				<div className='service__container'>
+
 		<section className=' flex flex-col justify-center items-center p-12'>
 		<h1 className=" m-28 z-20 text-6xl font-light  text-center">
 		SEO services include
@@ -101,6 +111,7 @@ function Service() {
 					</div>
 				</div>
 		</section>
+				</div>
 		<Section/>
 		
 		<PricingCards/>

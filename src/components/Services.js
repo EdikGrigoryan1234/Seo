@@ -21,6 +21,8 @@ import ServicesIcons from './ServiceIcons';
 function Services() {
   return (
 	 <>
+	 <div className='services__container'>
+
 		  <section className="section1">
         <div className=' p-32'>
 			<div className=' flex items-center justify-center flex-col p-10'> 
@@ -49,6 +51,9 @@ function Services() {
 				</div>
         </div>
       </section>
+			</div>
+			<div className='services__container'>
+
 	<section className=' gap-44'>
 		<div className=' p-10'>
 		<ServiceCards
@@ -56,45 +61,48 @@ function Services() {
 		bul={true} 
 		title='Social Media Marketing'
 		text='Elementum ipsum lorem tortor morbi quis turpis pellentesque ultrices aenean. Lacus sit viverra et egestas nisl vitae lacus, eget. Eu pulvinar duis in posuere non adipiscing.
-                     Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.'
-					
-					 />
+		Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.'
+		
+		/>
 		<ServiceCards
 		img={img2}
 		bul={false} 
 		title='Social Media Marketing'
 		text='Elementum ipsum lorem tortor morbi quis turpis pellentesque ultrices aenean. Lacus sit viverra et egestas nisl vitae lacus, eget. Eu pulvinar duis in posuere non adipiscing.
-                     Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.'
-					
-					 />
+		Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.'
+		
+		/>
 		<ServiceCards
 		img={img3}
 		bul={true} 
 		title='Social Media Marketing'
 		text='Elementum ipsum lorem tortor morbi quis turpis pellentesque ultrices aenean. Lacus sit viverra et egestas nisl vitae lacus, eget. Eu pulvinar duis in posuere non adipiscing.
-                     Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.'
-					
-					 />
+		Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.'
+		
+		/>
 		<ServiceCards
 		img={img4}
 		bul={false} 
 		title='Social Media Marketing'
 		text='Elementum ipsum lorem tortor morbi quis turpis pellentesque ultrices aenean. Lacus sit viverra et egestas nisl vitae lacus, eget. Eu pulvinar duis in posuere non adipiscing.
-                     Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.'
-					
-					 />
+		Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.'
+		
+		/>
 		<ServiceCards
 		img={img5}
 		bul={true} 
 		title='Social Media Marketing'
 		text='Elementum ipsum lorem tortor morbi quis turpis pellentesque ultrices aenean. Lacus sit viverra et egestas nisl vitae lacus, eget. Eu pulvinar duis in posuere non adipiscing.
-                     Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.'
-					
+		Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.'
+		
 		/>
 		</div>
 	</section>
+		</div>
 	<Section></Section>
 	<StudioCards/>
+	<div className='services__container'>
+
 	<section className=' p-20 gap-10'>
 		<h1 className=' text-5xl'>Markets in which we operate</h1>
 		<div className=' flex gap-10 p-36'>
@@ -104,6 +112,7 @@ function Services() {
 		<ServicesIcons img={icon4} title='Startup Projects' text ='Aute eiusmod dolore dolore deserunt veniam ad deserunt. '/>
 		</div>
 	</section>
+	</div>
 	 <StudioCards/>
 	 </>
   )

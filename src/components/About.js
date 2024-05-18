@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Button from './Button';
 function About() {
   return (
-	 <div>
+	 <div className='about__container'>
 	
 	<section className="section1">
         <div className=' p-32'>
