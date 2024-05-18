@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
-
+import "./Global.css";
 function Header() {
   const [showServiceLink, setShowServiceLink] = useState(true);
 
@@ -10,14 +10,15 @@ function Header() {
   };
 
   return (
-    <header className=' rounded-br-lg pl-56  w-full pt-0 z-50 h-48 absolute flex justify-between items-center bg-[rgba(31,33,46,0.52)]'>
+    <div className='header__container bg-[#262841]'>
+    <header className=' flex w-full justify-between items-center h-auto  p-20'>
       <div>
         <Link className='flex items-center' to='/'>
           <h3 className='text-2xl text-white'>CREATE</h3>
           <h3 className='text-5xl text-[#7772F1]'>X</h3>
         </Link>
       </div>
-      <nav className='flex items-center gap-10'>
+      <nav className=' flex items-center gap-10'>
         <ul className='flex gap-10 text-white'>
           <div className=' gap-5'>
             <li>
@@ -43,7 +44,7 @@ function Header() {
           </div>
           {/* <li>
             <Link to='/studio' className='text-white text-lg font-light cursor-pointer'>
-              Case Studies
+            Case Studies
             </Link>
           </li>  */}
           {/* /* <li>
@@ -67,6 +68,7 @@ function Header() {
         </Link>
       </nav>
     </header>
+          </div>
   );
 }
 

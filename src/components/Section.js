@@ -1,10 +1,11 @@
 import React from 'react'
 import "./home.css";
+import "./Global.css";
 import Button from './Button';
 import { Link } from 'react-router-dom';
 function Section() {
   return (
-	 <div className=' w-full h-1/6'>
+	 <div className='section__container'>
 			<section className="section2">
 				<form >
 					<h3 className=" text-4xl">Get a Free SEO Analysis!</h3>

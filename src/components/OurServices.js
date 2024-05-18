@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from './Button'
+import "./Global.css";
 import img2 from './images/img2.png'
 function OurServices() {
   return (
-	 <div className='w-full p-24'>
+	 <div className='section__container'>
 		  <section>
         <h1 className=" text-6xl">Our services</h1>
 		  <div className=" flex items-center justify-center gap-14">

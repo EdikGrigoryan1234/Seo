@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Button from "./Button";
 import "./home.css";
+import "./Global.css";
 import img1 from "./images/image.png";
 import logo1 from "./images/logo1.jpg";
 import logo2 from "./images/logo2.jpg";
@@ -25,6 +26,7 @@ function Home() {
 	}
   return (
     <>
+      <div className="section1__container">
       <section className="section1">
         <div className=" flex flex-col justify-center items-center">
           <h1 className=" m-28 z-20 text-white  text-6xl  text-center">
@@ -33,13 +35,16 @@ function Home() {
           <Link to="/end">
             <Button
             padding='20px'
-              text="Talk to a human"
-              back="#7772F1"
-              color="white"
+            text="Talk to a human"
+            back="#7772F1"
+            color="white"
             ></Button>
           </Link>
         </div>
+
       </section>
+            </div>
+        <div className="section2__container">
       <section className="m-10 w-full h-auto p-16 flex justify-center gap-14">
         <p className="text-3xl w-64 text-right">
           Createx SEO Agency is a full-service digital marketing agency. We help
@@ -74,6 +79,9 @@ function Home() {
           </div>
         </div>
       </section>
+        </div>
+        <div className="section3__container">
+
       <section className=" flex items-center justify-center  p-32">
         <div className=" flex flex-col  justify-center items-center gap-11">
           <h2 className=" text-center text-5xl text-black">Createx Agency </h2>
@@ -92,8 +100,11 @@ function Home() {
         </div>
         <img className=" w-4/6 h-4/6" src={img1} />
       </section>
+        </div>
 		<OurServices/>
 		<Section></Section>
+    <div className="section4__container">
+
 		<section className=" flex justify-start gap-12 text-left p-12 items-center flex-col">
 			<h1 className=" text-5xl">Freequently Ask Questions</h1>
 			<DropDown content='Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient diam magna ullamcorper morbi semper massa ac facilisis.' text='Aliquet lectus urna viverra in odio?'/>
@@ -104,6 +115,7 @@ function Home() {
             <Button text="Discover more" back="#7772F1" color="white"></Button>
           </Link>
 		</section>
+    </div>
     <StudioCards/>
     <PricingCards/>
     <ClientSay/>

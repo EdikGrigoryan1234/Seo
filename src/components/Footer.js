@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
+	<div className='footer__container'>
+
 	 <div className=' w-full bg-[#1E212C] h-12 p-72 flex justify-center items-center gap-52'>
 		<div className=' gap-10'>
 		<Link  className='flex items-center' to='/'>
@@ -31,6 +33,7 @@ function Footer() {
 			
 			</div>
 	 </div>
+	</div>
   )
 }
 

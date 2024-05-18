@@ -7,6 +7,17 @@
 	list-style: none;
 	text-decoration: none;
 }	
+[class*="__container"]{
+	max-width: 1750px;
+	margin: 0 auto;
+}
+
+.header__container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #1E212C;
+}
 button{
 	text-align: center;
 }

@@ -80,7 +80,7 @@ function Blog() {
   };
 
   return (
-    <>
+    <div className="blog__container">
       <section className="flex gap-12 justify-between p-60">
         <div className="flex gap-5 flex-col">
           <h1 className="z-20 text-6xl text-center">Blog posts</h1>
@@ -127,7 +127,7 @@ function Blog() {
       </section>
       <Section />
       <div className="w-full h-1"></div>
-    </>
+    </div>
   );
 }
 
