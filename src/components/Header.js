@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <div className='header__container bg-[#262841]'>
-    <header className=' flex w-full justify-between items-center h-auto  p-20'>
+    <header className=' flex w-full justify-between items-center h-auto p-20 sm:justify-center 2xl:justify-center gap-32'>
       <div>
         <Link className='flex items-center' to='/'>
           <h3 className='text-2xl text-white'>CREATE</h3>

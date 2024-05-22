@@ -25,11 +25,11 @@ function Home() {
 		}
 	}
   return (
-    <>
+    <div className=" p-0 56">
       <div className="section1__container">
       <section className="section1">
         <div className=" flex flex-col justify-center items-center">
-          <h1 className=" m-28 z-20 text-white  text-6xl  text-center">
+          <h1 className=" xl:m-0 m-28 text-wrap 2xl:w-96 tracking-normal z-20 text-white  text-6xl  text-center">
             Best SEO & Marketing Solutions for You
           </h1>
           <Link to="/end">
@@ -119,7 +119,7 @@ function Home() {
     <StudioCards/>
     <PricingCards/>
     <ClientSay/>
-    </>
+    </div>
   );
 }
 

@@ -26,7 +26,7 @@ function Services() {
 		  <section className="section1">
         <div className=' p-32'>
 			<div className=' flex items-center justify-center flex-col p-10'> 
-          <h1 className=" m-28 z-20 text-white  text-9xl font-light  text-center">
+          <h1 className=" xl:m-0  mb-2 m-28 z-20 text-white  text-9xl font-light  text-center">
 		  Our services
           </h1>
 		  <p className=' text-white font-normal w-80'>We offer more than services. Our agency provides solutions to your top-priority concerns, involving customer targeting, email performance and sales growth. If there is no existing solution readily available, we create one, specifically to suit your business.</p>

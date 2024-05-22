@@ -6,7 +6,7 @@ import img2 from './images/img2.png'
 function OurServices() {
   return (
 	 <div className='section__container'>
-		  <section>
+		  <section className=' lg:pl-64'>
         <h1 className=" text-6xl">Our services</h1>
 		  <div className=" flex items-center justify-center gap-14">
 
@@ -38,7 +38,7 @@ function OurServices() {
             </Link>
           </div>
         </div>
-        <img className=" w-3/6 h-4/6 object-cover" src={img2} />
+        <img className=" lg:hidden w-3/6 h-4/6 object-cover" src={img2} />
 			</div>
       </section>
 	 </div>
